@@ -29,7 +29,6 @@ const Home = () => {
       style={{ height: "100vh" }}
     >
       <Nav />
-      <h1>Please login</h1>
       <div className="d-flex justify-content-around">
         {featureCardOptions.map((each: FeatureCardProps) => (
           <FeatureCard key={each.title} {...each} />

@@ -11,6 +11,7 @@ const Nav = () => {
         <p>item2</p>
         <p>item3</p>
         <p>item4</p>
+        <button onClick={() => (window.location.href = "/login")}>Login</button>
       </div>
     </div>
   );
